@@ -2,10 +2,7 @@
 
 The project has been made using the React truffle box and Material UI.
 
-<!-- Note the contracts have been deployed on the Rinkeby test network. So, to use the React app, ///please switch
-over to the Rinkeby test network on your Metamask wallet.
 
-You can find it here - https://swapperrr.netlify.app/ -->
 
 ## How it works?
 
@@ -69,10 +66,10 @@ You can also test the files using the command -
 truffle test
 ```
 
-To deploy the contracts on Rinkeby -
+To deploy the contracts on network -
 
 ```bash
-truffle migrate --network rinkeby
+truffle migrate --network 
 ```
 
 ### Frontend
