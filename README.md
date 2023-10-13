@@ -2,8 +2,6 @@
 
 The project has been made using the React truffle box and Material UI.
 
-
-
 ## How it works?
 
 Exchange smart contract uses the constant product function, xy = k(constant) to facilitate the exchange of an ERC20 token with Ether.
@@ -69,7 +67,13 @@ truffle test
 To deploy the contracts on network -
 
 ```bash
-truffle migrate --network 
+truffle migrate --network
+```
+
+To deploy the contracts on Goerli -
+
+```bash
+truffle migrate --network goerli
 ```
 
 ### Frontend
